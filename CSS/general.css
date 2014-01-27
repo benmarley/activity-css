@@ -1,5 +1,5 @@
 html {
-    font-family:futura;
+    font-family:futura, helvetica, sans-serif;
     color:#ffffff
 }
 body {
@@ -10,7 +10,7 @@ h1 {
     font-size:2.5rem;
     font-weight:100;
     background-color:#000;
-    border-style:groove
+    border-style:groove;
 }
 
 h2 {
@@ -21,12 +21,14 @@ h2 {
     color: black
 }
 P {
-   text-align:justify
+   text-align:justify;
+   line-height:2rem
 }
 
 p strong {
     font-family:cursive;
     font-size:1.2rem;
+    color:#ff9900
 }
 p em {
     font-family:serif;
@@ -37,4 +39,14 @@ h3 {
     font-weight:100;
     font-size: 1.5rem;
     text-align:center
+}
+h4 {
+    font-size:2.5rem;
+    color:#000;
+    background:#ffffff;
+    text-align:center;
+    text-shadow: #999 2px 2px;
+}
+a:link {
+    color:#ffffff
 }
