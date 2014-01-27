@@ -7,7 +7,7 @@ body {
 }
 h1 {
     text-align:center;
-    font-size:2.5rem;
+    font-size:4rem;
     font-weight:100;
     background-color:#000;
     border-style:groove;
@@ -28,7 +28,7 @@ P {
 }
 
 p strong {
-    font-family:cursive;
+    font-family:rockwell, impact, cursive;
     font-size:1.2rem;
     color:#ff9900
 }
@@ -52,6 +52,9 @@ h4 {
     text-shadow: #999 2px 2px;
     border-bottom: 6px groove #ff0000
 }
-link {
+a:link {
     color:#ffffff
+}
+a:visited {
+    color:#3366cc
 }
