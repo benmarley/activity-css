@@ -18,7 +18,9 @@ h2 {
     font-weight:100;
     font-size:2rem;
     background:white;
-    color: black
+    color: black;
+    border-left: 7px dotted #f00;
+    border-right: 7px dotted #f00
 }
 P {
    text-align:justify;
@@ -48,4 +50,8 @@ h4 {
     background:#ffffff;
     text-align:center;
     text-shadow: #999 2px 2px;
+    border-bottom: 6px groove #ff0000
+}
+link {
+    color:#ffffff
 }
