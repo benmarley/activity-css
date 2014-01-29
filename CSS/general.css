@@ -58,3 +58,12 @@ a:link {
 a:visited {
     color:#3366cc
 }
+ol {
+    font-family: georgia, "times new roman", serif
+}
+ul li:last-child {
+    background:#fff000
+}
+h3 + p {
+    line-height:2.5rem
+}
